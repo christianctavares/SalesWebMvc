@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using SalesWebMvc.Models;
+using SalesWebMvc.Models.ViewModels;
 
 namespace SalesWebMvc.Controllers
 {
@@ -20,7 +21,7 @@ namespace SalesWebMvc.Controllers
             ViewData["Message"] = "Salles Web MVC App from C#.";
             ViewData["Professor"] = "christian tavares";
 
-            return Error();
+            return View();
         }
 
         public IActionResult Contact()
