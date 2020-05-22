@@ -2,7 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>802f014f-d4d1-44c8-8b90-7ad3b93fb7a3</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200522135825_OtherEntities.cs" />
+    <Compile Remove="Migrations\20200522135825_OtherEntities.Designer.cs" />
+    <Compile Remove="Migrations\20200522163602_OtherEntities.cs" />
+    <Compile Remove="Migrations\20200522163602_OtherEntities.Designer.cs" />
+    <Compile Remove="Migrations\20200522165829_OutrasEntidades.cs" />
+    <Compile Remove="Migrations\20200522165829_OutrasEntidades.Designer.cs" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
